@@ -1,0 +1,107 @@
+body {
+  background: url('https://horizons.service.canada.ca/resources/wp-content/uploads/2013/10/shutterstock_1203609688.jpg') 
+              no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85); /* Transparent white for readability */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.8em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 1em;
+}
+
+.wallet-section {
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers horizontally */
+  justify-content: center; /* Centers vertically */
+  text-align: center;
+}
+
+.wallet-section h2 {
+  color: #a4508b;
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.wallet-section button {
+  background-color: #ff7043;
+  color: #ffffff;
+  border: none;
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 1rem; /* Adds spacing between button and text */
+}
+
+.wallet-section button:hover {
+  background-color: #e64a19;
+}
+
+.wallet-section p {
+  font-family: monospace;
+  color: #333;
+  font-size: 0.9em;
+  margin-top: 0.5rem;
+}
+
+.button#create-mnemonic {
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  color: #FFFFFF;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  padding: 19px 24px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 0 auto; /* Centers button within parent */
+  display: block;
+}
+
+.button#create-mnemonic:active,
+.button#create-mnemonic:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button#create-mnemonic {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}

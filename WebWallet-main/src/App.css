@@ -1,0 +1,79 @@
+.crypto-container {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  color: #FFFFFF;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 19px 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Wallet buttons in one row */
+.wallet-button {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center contents within wallet */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  font-family: monospace;
+  max-width: 45%;
+  word-break: break-word;
+  text-align: center;
+}
+
+.wallet h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.wallet p {
+  font-size: 14px;
+  color: #333;
+  word-break: break-word;
+}
